@@ -1,0 +1,169 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>游戏，热爱才懂</title>
+    <link rel="shortcut icon" href="favicon.ico"/>
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="css/lover.css"/>
+</head>
+<body>
+<div id="box">
+    <ul>
+        <li class="bg"><img class="img" src="i/gt-img/lover0.jpg" alt=""/></li>
+        <li class="bg"><img class="img" src="i/gt-img/lover1.jpg" alt=""/></li>
+        <li class="bg"><img class="img" src="i/gt-img/lover2.jpg" alt=""/></li>
+        <li class="bg"><img class="img" src="i/gt-img/lover3.jpg" alt=""/></li>
+        <li class="bg"><img class="img" src="i/gt-img/lover4.jpg" alt=""/></li>
+    </ul>
+    <ol></ol>
+</div>
+<div class="ctn">
+    <div class="logo"><a href="#"><img src="i/gt-img/zf-logo.png" width=200 alt=""/></a></div>
+    <div class="content content0">
+        <h3>游戏</h3>
+        <strong>它,不</strong>
+        <h4>只是娱乐</h4>
+        <span>你得到的</span>
+        <em>也</em>
+
+        <p>远不止快乐</p>
+    </div>
+</div>
+<script src="js/common.js"></script>
+<script>
+    var box = document.getElementById("box");
+    var ulLis = getElementsByClassName(box, "bg");
+    var ol = document.getElementsByTagName("ol")[0];
+    var imgs = getElementsByClassName(box, "img");
+    var content = getElementsByClassName(document, "content")[0];
+    var numb = 0;
+    var timer = null;
+    var flag = false;
+    var colorArr = ["palevioletred", "dodgerblue", "palegreen", "mediumslateblue", "deepskyblue"];
+    var textArr = [
+        '<h3>游戏</h3>' +
+        '<strong>它,不</strong>' +
+        '<h4>只是娱乐</h4>' +
+        '<span>你得到的</span>' +
+        '<em>也</em>' +
+        '<p>远不止快乐</p>'
+        ,
+
+        '<h3>我们</h3>' +
+        '<strong>和那些</strong>' +
+        '<h4>注定与游戏有着</h4>' +
+        '<span>更深羁绊的人一样</span>' +
+        '<em>对游戏</em>' +
+        '<p>我们从不游戏</p>'
+        ,
+        '<h3>热爱</h3>' +
+        '<strong>用职业，生意和市场</strong>' +
+        '<h4>定义游戏的人</h4>' +
+        '<span>永远不懂得</span>' +
+        '<em>热爱</em>' +
+        '<p>的真正意义</p>'
+        ,
+        '<h3>魅力</h3>' +
+        '<strong>游戏的魅力</strong>' +
+        '<h4>去热爱</h4>' +
+        '<span>去珍惜</span>' +
+        '<em>才会</em>' +
+        '<p>真正的懂得</p>'
+        ,
+        '<h3>投入</h3>' +
+        '<strong>每一件</strong>' +
+        '<h4>被真正投入热爱的事情</h4>' +
+        '<span>都会迸发出</span>' +
+        '<em>原告于表面的</em>' +
+        '<p>意义与收获</p>'
+    ];
+
+    //显现 content
+    fadeIn(content, 3, function () {
+        flag = true;
+    });
+    //动态生成
+    for (var i = 0; i < ulLis.length; i++) {
+        var li = document.createElement("li");
+        ol.appendChild(li);
+    }
+    var olLis = ol.children;
+    olLis[0].style.backgroundColor = colorArr[0];
+    for (var i = 0; i < olLis.length; i++) {
+        olLis[i].index = i;
+        olLis[i].onmouseover = function () {
+            this.style.cursor = "pointer";
+        };
+        olLis[i].onclick = function () {
+            // 节流阀
+            if (flag) {
+                flag = false;
+                //找到当前对应的numb值 ，与ulLis绑定
+                numb = this.index;
+                //改变结构
+                content.innerHTML = textArr[numb];
+                content.style.opacity = "0";
+                //排他
+                for (var j = 0; j < olLis.length; j++) {
+                    olLis[j].style.backgroundColor = "";
+                }
+                this.style.backgroundColor = colorArr[this.index];
+                //让到达的图片恢复宽度
+                for (var i = 0; i < imgs.length; i++) {
+                    imgs[i].style.width = "1500px";
+                }
+                // 图片保持居中
+                var index = this.index;
+                clearInterval(timer);
+                timer = setInterval(function () {
+                    imgs[index].style.marginLeft = -imgs[index].offsetWidth / 2 + "px";
+                }, 15);
+                // 动态变化
+                animate(box, {"scrollToY": ulLis[this.index].offsetTop}, function () {
+                    animate(imgs[index], {"width": ulLis[index].offsetWidth}, function () {
+                        clearInterval(timer);
+                        //文字淡入
+                        fadeIn(content, 3, function () {
+                            flag = true;
+                            var i = 0;
+                            timer = setInterval(function () {
+                                i++;
+                                content.children[0].style.color = colorArr[i];
+                                if (i === colorArr.length) {
+                                    i = 0;
+                                }
+                            }, 1000);
+                        });
+                    });
+                });
+            }
+        };
+    }
+    //在滚轮滚动时判断
+    onmousewheel = function (event) {
+        var event = eventUtil.getEvent(event);
+        //节流阀
+        if (flag) {
+            //判断方向
+            if (event.deltaY > 0) {
+                numb++;
+            } else {
+                numb--;
+            }
+            //判断如果是在范围内 ,进行对应的olLis点击
+            if (numb >= 0 && numb < olLis.length) {
+                olLis[numb].onclick();
+            }
+            //如果是在范围外 ，锁定在最外部
+            if (numb >= olLis.length - 1) {
+                numb = olLis.length - 1;
+            }
+            if (numb < 0) {
+                numb = 0;
+            }
+        }
+    };
+</script>
+</body>
+</html>

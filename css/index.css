@@ -1,0 +1,1117 @@
+@charset "utf-8";
+/* 顶部链接 */
+/*turndraw部分start*/ /* -------------------------------张飞-------------------------------  */
+/*turndraw部分start*/
+.zf-draw {
+    height: 820px;
+    width: 100%;
+    position: relative;
+}
+.zf-draw .bg1,.bg2,.bg3,.bg4,.bg5 {
+    width: 100%;
+    position: absolute;
+    height: 820px;
+}
+.zf-draw .bg1 {
+    background: url(../i/zfi/1.jpg) no-repeat top center;
+}
+.zf-draw .bg2 {
+    background: url(../i/zfi/2.jpg) no-repeat top center;
+}
+.zf-draw .bg3 {
+    background: url(../i/zfi/3.jpg) no-repeat top center;
+}
+.zf-draw .bg4 {
+    background: url(../i/zfi/4.jpg) no-repeat top center;
+}
+.zf-draw .bg5 {
+    background: url(../i/zfi/5.jpg) no-repeat top center;
+}
+.bg-banner {
+    height: 720px;
+    margin-top: 100px;
+    position: absolute;
+}
+.bg-banner-box {
+    width: 500px;
+    position: absolute;
+    left: 30px;
+    top: 210px;
+}
+.bg-banner-box a {
+    color: white;
+    display: block;
+}
+.bg-banner-box h2 {
+    font: 44px/44px microsoft yahei;
+    margin-bottom: 20px;
+}
+.bg-banner-box h3 {
+    font: 44px/44px microsoft yahei;
+    margin-bottom: 20px;
+}
+.bg-banner-box p {
+    border-top: 1px solid #BC1A3B;
+    font: 16px/32px microsoft yahei;
+    margin-bottom: 20px;
+}
+.bg-banner-box i {
+    display: block;
+    width: 140px;
+    height: 50px;
+    margin-top: 30px;
+    background: #CF0F32;
+    border-radius: 25px;
+    text-align: center;
+    font: 16px/50px microsoft yahei;
+
+}
+.top-bg{
+    height: 100px;
+    background: #ffffff;
+    opacity: 0.9;
+    z-index: 3;
+}
+.top-nav-in {
+    width: 1260px;
+    position: absolute;
+    z-index: 101;
+}
+.top-nav-in .logo {
+    width: 294px;
+    height: 80px;
+    margin-top: 20px;
+}
+.top-nav-in .logo h1 {
+    text-indent: -11111px;
+    height: 0px;
+}
+.top-nav-in ul li {
+    float: left;
+    height: 100px;
+    font: 16px/100px "microsoft yahei";
+    margin-right: 26px;
+}
+.top-nav-in ul li a {
+    display: block;
+    font: 16px/100px "microsoft yahei";
+    color: #898688;
+    height: 100px;
+    position: relative;
+}
+.top-nav-in ul li a i {
+    height: 5px;
+    background: #cf0f32;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.top-open,.top-close {
+    width: 120px;
+    height: 120px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+.top-open {
+    background: #D01534;
+    z-index: 1;
+}
+.top-close {
+    background: #282b2d;
+}
+.top-open-center {
+    width: 34px;
+    height: 34px;
+    margin: 43px;
+    background: url(../i/zfi/zf-topBar.png) no-repeat 0 0;
+}
+.top-colse-center {
+    width: 34px;
+    height: 34px;
+    margin: 43px;
+    background: url(../i/zfi/zf-topBar.png) no-repeat -34px 0;
+}
+.zf-draw .arrows {
+    position: relative;
+    width: 1340px;
+    margin: 0 auto;
+}
+.arrows .left,.arrows .right{
+    position: absolute;
+    z-index: 5;
+    width: 45px;
+    height: 80px;
+    background: #CF0F32;
+    top: 355px;
+    margin-top: -40px;
+    text-align: center;
+    color: #ffffff;
+    font: 14px/80px consola;
+    cursor: pointer;
+}
+.arrows .left {
+    left: 0;
+}
+.zf-draw .arrows .right {
+    right: 0;
+}
+
+
+.zf-circle ul {
+    position: absolute;
+    bottom: 140px;
+    right: 40%;
+    z-index: 2;
+}
+.zf-circle ul li {
+    float: left;
+    width: 12px;
+    height: 12px;
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.circle-cruurent {
+    width: 12px;
+    height: 12px;
+    background-color:  #CF0F32;
+}
+.circle-cruurent-s {
+    width: 12px;
+    height: 12px;
+    background-color:  #ffffff;
+}
+
+
+.top-game {
+    position: relative;
+    z-index: 9000;
+    height: 860px;
+    background: rgba(40,43,45,.9);
+    display: none;
+}
+
+.game-in-title  {
+    height: 85px;
+    color: #ffffff;
+}
+.game-in-title .span1 {
+    padding-left: 40px;
+    font: 600 20px/85px "microsoft yahei";
+}
+.game-in-title span {
+    font: 600 12px/85px "microsoft yahei";
+    margin-right: 20px;
+}
+.top_game_em,.top_game_i {
+    margin-left: 5px;
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+}
+.top_game_em {
+    background: url(../i/zfi/zf-topBar.png) -56px -34px;
+}
+.top_game_i{
+    background: url(../i/zfi/zf-topBar.png) -56px -48px;
+}
+.game-inpc-r{
+    width: 768px;
+}
+.game-inpc-r-b {
+    width: 810px;
+}
+
+.game-inpc-l h3 {
+    padding-left: 40px;
+}
+.game-inpc-r h3 {
+    width: 766px;
+}
+.game-inpc-l h3,.game-inpc-r h3 {
+    height: 50px;
+    font: 600 16px/50px "microsoft yahei";
+    color: #CD1232;
+    background-color: rgba(50,52,58,.9);
+}
+.game-inpc-l h3 s,.game-inpc-r h3 s {
+    display: inline-block;
+    width: 4px;
+    height: 16px;
+    background-color: #CD1232;
+    margin-right: 25px;
+    vertical-align: middle;
+}
+.game-content-1,.game-content-2,.game-content-3,.game-content-4 {
+    padding-left: 40px;
+    padding-top: 25px;
+    height: 800px;
+}
+.game-content-1 {
+    width: 274px;
+}
+.game-content-2 {
+    width: 138px;
+}
+.game-content-3{
+    width: 138px;
+}
+.game-content-4 {
+    width: 576px;
+}
+.top-game h4 {
+    height: 19px;
+    color: #6b6b6c;
+    font: 700 14px/19px "microsoft yahei";
+    margin-bottom: 20px;
+}
+.game-content-1 li,  .game-content-2 li,  .game-content-3 li {
+    width: 136px;
+    height: 28px;
+}
+.game-content-4 li {
+    width: 144px;
+    height: 28px;
+    line-height: 28px;
+}
+
+.top-game a {
+    display: inline-block;
+    font: 600 14px /28px "microsoft yahei";
+    color: #c3c3c3;
+}
+
+
+/*turndraw部分end*/
+
+/*/!* 顶部新闻*!/    /* -------------------------------姚敏-------------------------------  */
+.top-news {
+    height: 200px;
+    background: url("../i/top-news/bgred.jpg") no-repeat center center;
+}
+.hh .bgred {
+    position: relative;
+    height: 200px;
+    background: url("../i/hh-i/bgred.jpg") repeat-x;
+}
+
+.hh .w {
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    margin-left: -630px;
+    height: 320px;
+}
+
+.hh .title {
+    position: relative;
+    width: 150px;
+    height: 250px;
+    background-color: #282B2D;
+    padding-top: 70px;
+}
+
+.hh .m {
+    display: block;
+    height: 16px;
+    font: 10px/16px "微软雅黑";
+    color: #727272;
+}
+
+.hh .num {
+    display: block;
+    height: 62px;
+    font: 700 58px/62px "微软雅黑";
+    color: #727272;
+}
+
+.hh .splace {
+    display: block;
+    height: 5px;
+    width: 22px;
+    background-color: #CF1132;
+    margin: 14px auto 0;
+}
+
+.hh .tit {
+    display: block;
+    height: 54px;
+    font: 600 18px/54px "微软雅黑";
+    color: #F8F8FF;
+}
+
+.hh .title ul {
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    left: 60px;
+    bottom: 23px;
+}
+
+.hh .title li {
+    width: 9px;
+    height: 9px;
+    /*background-color: #727272;*/
+    border: 1px solid #6E6E6E;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.hh .slider {
+    position: relative;
+    width: 640px;
+    height: 320px;
+    overflow: hidden;
+}
+
+.hh .slider ul {
+    position: absolute;
+    width: 1280px;
+    height: 320px;
+    background-color: rgba(30, 30, 155, 0.3);
+}
+
+.hh .slider li {
+    position: relative;
+    width: 320px;
+    height: 320px;
+    float: left;
+}
+
+.hh .slider li a, .hh .slider li a:hover {
+    display: block;
+    color: #FFFFFF;
+    height: 320px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.hh .slider .li0 {
+    background: url("../i/hh-i/4") no-repeat;
+}
+
+.hh .slider .li1 {
+    background: url("../i/hh-i/3") no-repeat;
+}
+
+.hh .slider .li2 {
+    background: url("../i/hh-i/2") no-repeat;
+}
+
+.hh .slider .li3 {
+    background: url("../i/hh-i/1") no-repeat;
+}
+
+.hh .slider li a h3 {
+    position: absolute;
+    top: 40px;
+    width: 320px;
+    display: block;
+    height: 77px;
+    font: 21px/77px "微软雅黑";
+}
+
+.hh .slider li a p {
+    position: absolute;
+    width: 230px;
+    left: 50%;
+    margin-left: -115px;
+    font: 14px/30px "微软雅黑";
+    top: 150px;
+    color: #C6C6C6;
+}
+
+.hh .slider li a i {
+    position: absolute;
+    left: 0;
+    top: -60px;
+    width: 100%;
+    height: 60px;
+    /*background:*/
+    background-color: #000;
+    opacity:.5;
+}
+
+.hh .slider li a em {
+    position: absolute;
+    width: 320px;
+    height: 120px;
+    bottom: -120px;
+    background-color: #D02744;
+    left: 0;
+}
+
+.hh .news {
+    position: relative;
+    width: 430px;
+    height: 320px;
+    padding-left: 40px;
+    background-color: #282B2D;
+}
+
+.hh .news .moreNews {
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    top: 0;
+    right: 0;
+    background: url("../i/hh-i/jingling1.png") no-repeat;
+}
+
+.hh .news h3 {
+    width: 390px;
+    height: 86px;
+    margin-top: 30px;
+    border-bottom: 1px solid #3D4041;
+}
+
+.hh .news h3 a {
+    display: block;
+    width: 390px;
+    height: 86px;
+    font: 600 24px/32px "微软雅黑";
+    color: #CF0F32;
+}
+
+.hh .news h3 a:hover {
+    color: #E41F43;
+}
+
+.hh .news ul {
+    width: 390px;
+    padding-top: 15px;
+}
+
+.hh .news ul li {
+    width: 390px;
+    height: 30px;
+}
+
+.hh .news ul li i {
+    font: 400 19px/30px "微软雅黑";
+    vertical-align: -2px;
+}
+
+.hh .news ul li a {
+    display: inline-block;
+    width: 350px;
+    height: 30px;
+    font: 13px/30px "微软雅黑";
+    color: #C3C3C3;
+}
+
+.hh .news ul li a:hover span {
+    font: 600 13px/30px "微软雅黑";
+    color: #FFFFFF;
+}
+
+.hh .news ul li .day {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    font: 13px/30px "微软雅黑";
+    color: #727272;
+}
+
+/* 中部引导 */     /* -------------------------------王志刚-------------------------------  */
+.wzg-wrap1 {
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.wzg-wrap1 .hotMob {
+    padding: 50px 0;
+}
+
+.hotMob .hotMob-tittle {
+    margin-bottom: 30px;
+    font: 22px/22px "Microsoft Yahei";
+    text-indent: 15px;
+    border-left: 4px #cf1132 solid;
+}
+
+.hotMob-tittle .wzg-reload {
+    margin-right: 20px;
+    color: #272a2c;
+    font-size: 16px;
+}
+
+.wzg-reload i {
+    width: 22px;
+    height: 22px;
+    background: url("../i/wzg-i/sprit.png") no-repeat -20px -38px;
+    margin-left: 10px;
+}
+
+.hotMob-content {
+    width: 1300px;
+    height: 315px;
+}
+
+.hotMob-content .hotbox {
+    position: relative;
+    margin: 0 30px 0 0;
+    width: 400px;
+    height: 315px;
+    border-bottom: 5px #ebebeb solid;
+    background: #fffdfe;
+    overflow: hidden;
+    /*opacity: 0;*/
+}
+
+.hotbox .gameTitle {
+    margin: 18px 0 0 20px;
+    font: 700 20px/32px "Microsoft Yahei";
+    color: #383838;
+
+}
+
+.hotbox .gameImg {
+    display: block;
+    width: 400px;
+    height: 176px;
+}
+
+.hotbox .gametxt {
+    margin-left: 30px;
+    font: 14px "Microsoft YaHei";
+    color: #9f9f9f;
+}
+
+.botLink {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
+    width: 88px;
+    height: 30px;
+    font: 12px/30px "Micosoft YaHei";
+    background: url("../i/wzg-i/dkbtn1.png") no-repeat 0 -30px;
+    color: #9f9f9f;
+}
+
+.topLink {
+    position: absolute;
+    bottom: 45px;
+    right: 20px;
+    width: 88px;
+    height: 0;
+    font: 12px/30px "Micosoft YaHei";
+    background: url("../i/wzg-i/dkbtn1.png") no-repeat 0 0;
+
+}
+
+.hotbox .gameTop {
+    position: absolute;
+    top: -176px;
+
+    width: 400px;
+    height: 176px;
+
+    background-color: #cf0f32;
+    opacity: 0.8;
+}
+
+.erweima {
+    float: left;
+    margin-left: 50px;
+    margin-top: 38px;
+}
+
+.gameTop .topTxt {
+    float: left;
+    margin-left: 45px;
+    margin-top: 30px;
+    width: 172px;
+    height: 100px;
+    overflow: hidden;
+}
+
+.topTxt p {
+    height: 28px;
+    color: #fff;
+    font: 14px/28px "Microsoft YaHei";
+    overflow: hidden;
+}
+
+.wzg-wrap2 {
+    width: 100%;
+    padding: 0 0 40px;
+    background-color: #fff;
+    min-height: 425px;
+}
+
+.wzg-wrap2 .games {
+    width: 1258px;
+    border-left: 1px #eee solid;
+    border-right: 1px #eee solid;
+}
+
+.games .games-tittle {
+    padding: 25px 0;
+    font-family: "Microsoft Yahei";
+    border-left: 1px #eee solid;
+}
+
+.games-tittle em {
+    font-size: 16px;
+    color: #222;
+}
+
+.gametype {
+    margin-bottom: 20px;
+    font: 14px "Microsoft Yahei";
+    color: #c21d35;
+    text-indent: 40px;
+    font-weight: 700;
+}
+
+.games-tittle em {
+    border-left: 4px #dd1136 solid;
+    height: 16px;
+    line-height: 16px;
+    text-indent: 36px;
+    font-weight: 700;
+    display: block;
+}
+
+.games ul {
+    padding-left: 36px;
+}
+
+.games li {
+    float: left;
+    width: 130px;
+}
+
+.games a {
+    font: 14px "Microsoft Yahei";
+    line-height: 28px;
+    color: #666;;
+}
+
+.games-l-l {
+    width: 300px;
+    padding-top: 20px;
+}
+
+.games-l-r {
+    width: 150px;
+    padding-top: 20px;
+
+    border-left: 1px #eee solid;
+}
+
+.games-r-l {
+    width: 165px;
+    padding-top: 20px;
+    border-left: 1px #eee solid;
+
+}
+
+.games-r-r {
+    padding-top: 20px;
+    border-left: 1px #eee solid;
+    border-right: 1px #eee solid;
+}
+
+.games-r-r ul {
+    width: 576px;
+}
+
+.games-r-r ul li {
+    width: 144px;
+}
+
+.icon-H, .icon-N {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    margin: 0 0 0 5px;
+}
+
+.wzg-wrap2 .icon-H {
+    background: url("../i/wzg-i/sprit2.png") no-repeat -56px -48px;
+}
+
+.wzg-wrap2 .icon-N {
+    background: url("../i/wzg-i/sprit2.png") no-repeat -56px -34px;
+}
+
+.games a:hover {
+    font-weight: 700;
+    color: #666;
+}
+
+.wzg-wrap2 .hotNew {
+    text-align: center;
+    color: #5a5a5a;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+span .icon-H, span .icon-N {
+    margin: 0 5px;
+}
+
+
+/* 中部引导 End*/
+
+/*底部引导*/   /* -------------------------------姚敏-------------------------------  */
+.ym-big{
+    width: 100%;
+    height: 370px;
+    padding-top: 309px;
+    background: url("../i/ym/gamebg.jpg") no-repeat center top;
+}
+.ym-ba{
+    width: 100%;
+    height: 370px;
+    min-width: 1260px;
+    overflow: hidden;
+}
+.ym-ba a{
+    float: left;
+    width: 20%;
+    height: 370px;
+    position: relative;
+    overflow: hidden;
+}
+.ym-ba em,.ym-ba span{
+    position: absolute;
+    left: 0;
+}
+
+.ba-a{
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+}
+.ba-1{
+    background-image:url("../i/ym/first.jpg");
+    background-repeat: no-repeat;
+}
+.ba-2{
+    background-image:url("../i/ym/second.jpg");
+    background-repeat: no-repeat;
+}
+.ba-3{
+    background-image:url("../i/ym/three.jpg");
+    background-repeat: no-repeat;
+}
+.ba-4{
+    background-image:url("../i/ym/four.jpg");
+    background-repeat: no-repeat;
+}
+.ba-5{
+    background-image:url("../i/ym/five.jpg");
+    background-repeat: no-repeat;
+}
+
+.ym-ba .jiaoa{
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    left: 0;
+    opacity: 0.6;
+}
+.ym-ba .jiaob{
+    height: 50%;
+    width: 100%;
+    background-color: #cf0f32;
+    bottom: -185px;
+}
+.ym-ba span{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    color: #fff;
+    font-size: 20px;
+    margin-top: -34px;
+}
+.ym-ba span p{
+    line-height: 34px;
+    text-align: center;
+    font-family: "微软雅黑";
+}
+
+/*底部引导 End*/
+
+/*底部热点*/         /* -------------------------------井鑫-------------------------------  */
+.jx-hotp {
+    height: 374px;
+}
+
+
+
+.jx-hotp .hot-c {
+    margin: 0 30px;
+}
+
+.center {
+    width: 1260px;
+}
+
+.hotimg {
+    width: 400px;
+    height: 194px;
+    position: relative;
+    left: 0%;
+    top: 0%;
+
+}
+
+.jx-hotp .int {
+    height: 121px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.jx-hotp .int h2 {
+    margin-top: 20px;
+    margin-left: 18px;
+    font: 700 20px/32px "Microsoft YaHei";
+}
+
+.jx-hotp .int p {
+    font: 14px "Microsoft YaHei";
+    margin-left: 30px;
+    color: #A9A9A9;
+}
+
+.jx-hotp .int span {
+    width: 93px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    position: relative;
+    font-size: 11px;
+
+}
+
+.jx-hotp .int .button {
+    width: 80px;
+    height: 25px;
+    line-height: 25px;
+    color: #A9A9A9;
+    position: relative;
+    margin: 0 28px;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 25px;
+}
+
+.jx-hotp .int i {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 7px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid red;
+    color: red;
+
+}
+
+.bt{
+    position: absolute;
+    left: 80px;
+    top: 89px;
+}
+.hot-l ,.hot-c ,.hot-r{
+    border-bottom: 4px solid #EBEBEB;
+    height: 360px;
+    width: 400px;
+    float: left;
+    background-color: white;
+}
+.hotp-head{
+    position: relative;
+    line-height: 22px;
+    font-size: 22px;
+    color: #272a2c;
+    display: block;
+    text-indent: 15px;
+    border-left: 4px  solid #cf1132;
+    margin-bottom: 30px;
+}
+.hotp-head a{
+    font-size: 16px;
+}
+.hotp-head .a-o{
+    color: red;
+}
+.hotp-head .a-t{
+    color: #3F4244;
+}
+.hotp-head .a-t:hover{
+    color: red;
+}
+.hotp-head .change{
+    float: right;
+    font-size: 16px;
+    color: #272a2c;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 25px;
+}
+.hotp-head .change i{
+    display: inline-block;
+    height: 16px;
+    width: 21px;
+    background: url("../i/jx-images/index_1_z_8fedf32.png") no-repeat -20px -38px;
+}
+.hot-box{
+    height: 380px;
+    width: 100%;
+    background-color: #F1F1F1;
+    padding-bottom:133px;
+    padding-top: 80px;
+}
+.jx-imgbox{
+    width: 400px;
+    height: 194px;
+    display: inline-block;
+    overflow: hidden;
+}
+.hot-l,.hot-c,.hot-r{
+    overflow: hidden;
+    position: relative;
+
+}
+/*底部热点 End*/
+
+/* 辅助工具 */    /* -------------------------------黄长海-------------------------------  */
+.guid {
+    /*height:334px;*/
+    padding-top:30px;
+    padding-bottom:30px;
+    /*background:palegreen;*/
+}
+/*底部部分*/
+.conboxs {
+    width: 100%;
+}
+.conbox  {
+    height: 200px;
+}
+.conbox .conbox1 {
+    width: 152px;
+    height: 200px;
+    margin-right:14px;
+}
+.conbox .conbox2 {
+    width: 304px;
+    height: 200px;
+    margin-right:14px;
+}
+.conbox .conbox3 {
+    width: 152px;
+    height: 200px;
+    margin-right:14px;
+}
+.conbox .conbox4 {
+    width: 608px;
+    height: 200px;
+}
+.conbox a.conboxa {
+    position: relative;
+    overflow:hidden;
+    width: 150px;
+    height: 60px;
+    background-color: #dfd0ff;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0 2px 2px 0;
+    border-radius: 50px;
+
+
+}
+.conbox a.conboxa:hover span.txt1 {
+    color:white;
+}
+
+.conbox .conboxa span {
+    position: absolute;
+    display: block;
+    width: 120px;
+    left:50%;
+    margin-left:-60px;
+}
+.conbox .conboxa .conboxc {
+    position:absolute;
+    display: block;
+    width: 150px;
+    height: 80px;
+    top:0;
+    background-color: #C21D35;
+    opacity:0;
+    border-radius:50px;
+}
+
+
+.conbox .conboxa .txt1 {
+    top: 20px;
+    font:500 16px "微软雅黑";
+    color:#222222;
+}
+.conbox .conboxa .txt2 {
+    bottom:20px;
+    font:100 12px "微软雅黑";
+    color:#808080;
+}
+.conbox .conp {
+    display: inline-block;
+    width: 152px;
+    height: 16px;
+    font-size:16px;
+    margin-bottom:20px;
+    text-indent:30px;
+    background: url(../i/hchimg/01icon.png) left bottom no-repeat;
+}
+
+/*link 部分*/
+.link {
+    float:left;
+    margin-top:20px;
+}
+.link .txt3{
+    margin-right:10px;
+}
+.link   .linkaa {
+    color:#808080;
+}
+.link  .linkaa:hover{
+    color:#C21D35;
+}
+.link .phone{
+    margin-right:18px;
+}
+.link .num{
+    font:500 18px  "微软雅黑";
+    color:#909090;
+}
+/*copyright部分*/
+.copyright {
+    float: left;
+    width: 100%;
+    height: 77px;
+    background-color: #272A2C;
+    margin-top: 20px;
+}
+.cp {
+    height: 27px;
+    padding-top:20px;
+    text-align:center;
+}
+.cp .sp1 a{
+    color:#E23A3F;
+}
+.cp .sp2 {
+    margin-top:5px;
+    color:#FFFFFF;
+}
+/* footer End*/

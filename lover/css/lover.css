@@ -1,0 +1,108 @@
+html, body, #box {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    overflow-y: hidden;
+}
+
+#box {
+    background: #000;
+}
+
+html, body, ul, ul li {
+    width: 100%;
+    height: 100%;
+}
+
+ul li {
+    overflow: hidden;
+    position:relative;
+}
+
+ol {
+    position: fixed;
+    top: 35%;
+    right: 6%;
+    z-index:5;
+
+}
+
+ol li {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #aaa;
+    border-radius: 36%;
+    margin-bottom: 15px;
+}
+
+ol li.current {
+    background: deepskyblue;
+}
+
+.img {
+    position:absolute;
+    width: 1500px;
+    left:50%;
+    margin-left:-750px;
+}
+.logo img {
+    position: absolute;
+    top:30px;
+    left: 40px;
+    width: 220px;
+}
+.ctn {
+    position:fixed;
+    top:8%;
+    left:8%;
+    width: 85%;
+    height:80%;
+    border-radius:80px;
+    border: 4px solid darkslategray;
+    border-right: none;
+    z-index:1;
+}
+.content {
+    position:absolute;
+    top:200px;
+    left:40%;
+    font:700 40px/40px "microsoft yahei";
+    text-align:center;
+    opacity:0;
+}
+.content0 h3 {
+    font:700 70px "microsoft yahei";
+    float:left;
+    color:mediumpurple;
+    vertical-align:bottom;
+
+}
+.content0 strong {
+    color:#CF0F32;
+    padding:8px;
+}
+.content0 h4 {
+    color:white;
+    padding:8px;
+
+}
+.content0 span {
+    color:#CF0F32;
+    padding:8px;
+
+}
+.content0 em {
+    font-weight:normal;
+    font-size:50px;
+    color:#CF0F32;
+    padding:8px;
+
+}
+.content0 p {
+    font-size:50px;
+    color:#CF0F32;
+    padding:8px;
+
+}

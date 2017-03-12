@@ -1,0 +1,304 @@
+/*Í·²¿start*/
+.top {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 100;
+}
+.top a {
+    color: white;
+}
+.top .topPic {
+    margin: 0 auto;
+    /*max-width: 1170px;*/
+    /*min-width: 980px;*/
+    width: 1079px;
+    width: 80%;
+    height: 75px;
+}
+.top .topside {
+    float: left;
+    width: 59%;
+}
+.topside .logoLink {
+    float: left;
+    padding-top: 7px;
+
+}
+ .topNav {
+     float: left;
+     width: 450px;
+     padding-left: 18px;
+}
+ .topNav li {
+     float: left;
+     margin-left: 20px;
+ }
+ .topNav .current {
+     background-color: #12b7f5;;
+ }
+.topNav a {
+    float: left;
+    padding: 0 20px;
+    /*color: white;*/
+    font: 16px/75px "Microsoft YaHei";
+}
+.topTool {
+    position: relative;
+    width: 320px;
+}
+.topTool .topZc {
+    float: left;
+    width: 96px;
+    height: 0;
+    overflow: hidden;
+    padding: 39px 0 0 0;
+    margin: 18px 0 0 0;
+    background: url("../images/icons.png") no-repeat 0 -244px;
+    text-align: center;
+    line-height: 39px;
+    color: #fff;
+}
+.topTool .topBg {
+    position: absolute;
+    width: 96px;
+    height: 0;
+    top: 18px;
+    left: 0;
+    /*background-color: green;*/
+    background: url("../images/icons.png") no-repeat 0 -284px;
+}
+.topTool ul {
+    float: right;
+    height: 40px;
+    padding-top: 6px;
+}
+.topTool li {
+    float: left;
+    margin-left: 30px;
+    position: relative;
+    /*line-height: 40px;*/
+
+}
+.topTool li a {
+    font: 12px/40px "Microsoft YaHei";
+}
+.topTool .num {
+    line-height: 17px;
+    text-align: right;
+}
+
+/*ÂÖ²¥Í¼start*/
+.crossbanner {
+    position: relative;
+    /*text-align: center;*/
+}
+.crossbanner .banner {
+    position: relative;
+    width: 100%;
+    height: 680px;
+    /*overflow: hidden;*/
+
+    min-width: 1007px;
+    margin: 0 auto;
+}
+.banner li {
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    height: 680px;
+}
+.moble {
+    background: url("../images/mbbg.jpg") top center;
+}
+.moble a {
+    position: absolute;
+    margin-left: 35%;
+    bottom: 50px;
+    width: 386px;
+    height: 76px;
+    /*cursor: pointer;*/
+    background: url("../images/downBig.png") 0 0;
+}
+.pc {
+    background: url("../images/pcbg.jpg");
+}
+.pc a {
+    position: absolute;
+    margin-left: 18%;
+    bottom: 100px;
+    width: 386px;
+    height: 76px;
+    /*z-index: 0;*/
+    /*cursor: pointer;*/
+    background: url("../images/downBig.png") 0 0;
+}
+.pdex {
+    z-index: -2;
+}
+.crossbanner .circle {
+    position: absolute;
+    left: 47%;
+    /*margin: 0 auto;*/
+    bottom: 20px;
+    /*width: 100px;*/
+    /*height: 50px;*/
+    /*background-color: blue;*/
+    /*z-index: 5;*/
+}
+.circle li {
+    float: left;
+    margin-left: 10px;
+    cursor: pointer;
+    /*width: 12px;*/
+    /*height: 12px;*/
+}
+.circle .big {
+    width: 12px;
+    height: 12px;
+    background: url("../images/navcur.png");
+}
+.circle .small {
+    background: url("../images/nav.png") no-repeat center center;
+    /*margin-top: 4px;*/
+    width: 12px;
+    height: 12px;
+}
+
+/*ÂÖ²¥Í¼end*/
+
+h1 {
+    width: 100%;
+    height: 280px;
+    background: url("../images/brand.png") no-repeat top center;
+}
+
+.girl {
+    width: 100%;
+    height: 569px;
+    background: url("../images/girl.jpg") no-repeat top center;
+    background-attachment: fixed;
+}
+.voice {
+    width: 100%;
+    height: 569px;
+    background: url("../images/voice.jpg") no-repeat top center;
+}
+.hand {
+    width: 100%;
+    height: 569px;
+    background: url("../images/hand.jpg") no-repeat top center;
+}
+.receive {
+    width: 100%;
+    height: 569px;
+    background: url("../images/receive.jpg") no-repeat top center;
+}
+.boy {
+    width: 100%;
+    height: 569px;
+    background: url("../images/boy.jpg") no-repeat top center;
+    background-attachment: fixed;
+}
+.they {
+    width: 100%;
+    height: 569px;
+    background: url("../images/they.jpg") no-repeat top center;
+}
+
+@charset"UTF-8";
+
+.zf-nav-foot {
+    width: 100%;
+    height: 350px;
+    background-color: #2a2a2a;
+    padding-top: 40px;
+
+}
+.more {
+    height: 205px;
+}
+.product {
+    width: 460px;
+    padding-left: 15px;
+}
+.product h3 {
+    height: 50px;
+    color: #666;
+    font: normal 14px/14px "microsoft yahei";
+}
+.box-1,.box-2,.box-3,.box-4 {
+    width: 80px;
+    float: left;
+    margin-right: 30px;
+}
+.product a {
+    width: 80px;
+    text-align: center;
+    display: block;
+    width: 62px;
+    height: 48px;
+    background: url(../zfi/plats1.png) no-repeat -7px 0;
+}
+.product a:hover {
+    background: url(../zfi/plats1.png) no-repeat -7px -95px;
+}
+.product .box-2 a {
+    background: url(../zfi/plats1.png) no-repeat -126px 0;
+}
+.product .box-3 a {
+    background: url(../zfi/plats1.png) no-repeat -237px 0;
+}
+.product .box-4 a {
+    background: url(../zfi/plats1.png) no-repeat -333px 0;
+}
+.product .box-2 a:hover {
+    background: url(../zfi/plats1.png) no-repeat -126px -95px;
+}
+.product .box-3 a:hover {
+    background: url(../zfi/plats1.png) no-repeat -237px -95px;
+}
+.product .box-4 a:hover {
+    background: url(../zfi/plats1.png) no-repeat -333px -95px;
+}
+.product span {
+    display: block;
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    color: #666;
+}
+.QQ {
+    width: 485px;
+    height: 205px;
+}
+.QQ div {
+    width: 120px;
+}
+.ul-box h3 {
+    height: 30px;
+    color: #666;
+    font: normal 14px/14px "microsoft yahei";
+}
+.ul-box li {
+    height: 21px;
+    line-height: 21px;
+}
+.ul-box li a{
+    color: #666;
+}
+.ul-box li a:hover {
+    color: #cfcfcf;
+}
+.copyright {
+    border-top: 1px solid #666;
+    padding-top: 15px;
+    height: 35px;
+    text-align: center;
+}
+.copyright p {
+    font: 12px/16px "microsoft yahei";
+    color: #666;
+}

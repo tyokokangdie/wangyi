@@ -1,0 +1,503 @@
+/*信息展示*/
+.mainbox {
+    width: 1180px;
+    height: 352px;
+    margin:30px auto 40px;
+    background-color: #F5F5F5;
+}
+/*左边的盒子*/
+.boxLeft {
+    width: 680px;
+    height: 272px;
+    padding:40px;
+    border:2px solid #E3E3E3;
+    border-top:2px solid #B3E8EA;
+    float:left;
+}
+.boxLeft h2 {
+    width: 100%;
+    height: 31px;
+    line-height: 25px;
+    font-weight: 400;
+    font-family: "微软雅黑";
+    padding-bottom:6px;
+}
+.boxLeft h2 span {
+    display: block;
+    height: 25px;
+    padding-left:34px;
+    font-size: 24px;
+    position: relative;
+    float:left;
+    color:#35CECC;
+    font:500 24px "微软雅黑";
+}
+.boxLeft h2 span s {
+    display: block;
+    width: 23px;
+    height: 22px;
+    position: absolute;
+    top:3px;
+    left:0;
+    background: url(../hchimg/newsIcon_eaf04aa.png) center top no-repeat;
+}
+.boxLeft h2 a {
+    color:#808080;
+    font-size: 18px;
+    float:right;
+}
+
+/*左边盒子的ul部分*/
+.boxLeft ul {
+    display:block;
+}
+
+.boxLeft ul li {
+    height: 20px;
+    line-height:20px;
+    font: 18px "微软雅黑";
+    margin-top:20px;
+}
+.boxLeft ul li a  span {
+    float:left;
+    color:#333333;
+}
+.boxLeft ul li s {
+    display:block;
+    width: 36px;
+    height: 20px;
+    float:left;
+    margin-left:10px;
+    background-color: #35CECC;
+
+}
+.boxLeft ul li s b {
+    display:block;
+    font-size:14px;
+    color:#fff;
+    text-align:center;
+    line-height: 20px;
+}
+.boxLeft ul li span {
+    float:right;
+    font-size:18px;
+    color:#808080;
+}
+
+/*右边的盒子*/
+.boxRight {
+    width: 372px;
+    height: 316px;
+    padding:18px 0 18px 18px;
+    float:right;
+    position: relative;
+    background-color: #B1DDD9;
+}
+.boxRight .bigbox_r {
+    width: 227px;
+    height: 312px;
+    border:2px solid #fff;
+    display: inline-block;
+}
+
+.boxRight .bigbox_r .borderbox {
+    width: 215px;
+    height: 300px;
+    border:6px solid #b1ddd9;
+}
+.boxRight .bigbox_r .borderbox .clickbox {
+    width: 185px;
+    height: 275px;
+    border:1px solid #eef8f7;
+    padding:23px 14px 0;
+    background-color: #fff;
+}
+.boxRight .bigbox_r .borderbox .clickbox .clickspan {
+    width: 185px;
+    height: 185px;
+    display: inline-block;
+    background-color: #fff;
+    vertical-align: middle;
+    background:url(../hchimg/ad_7285b68.jpg) center top no-repeat;
+}
+/*右边盒子文本部分*/
+.boxRight .bigbox_r .borderbox .clickbox .downclick {
+    width: 125px;
+    height: 55px;
+    display: inline-block;
+    margin:15px 0 0 5px;
+    padding-left:50px;
+    position: relative;
+}
+.boxRight .bigbox_r .borderbox .clickbox .downclick s{
+    width: 41px;
+    height: 51px;
+    display: inline-block;
+    background: url(../hchimg/iconAndroid_1b38778.png);
+    position:absolute;
+    top: 0;
+    left:0;
+}
+.boxRight .bigbox_r .borderbox .clickbox .downclick span{
+    width: 100%;
+    color:#00b4b4;
+    font:500 28px "microsoft yahei";
+    text-align: center;
+    display: inline-block;
+}
+.boxRight .bigbox_r .borderbox .clickbox .downclick p {
+    font-size:15px;
+    color:#808080;
+    text-align:center;
+
+}
+.boxRight em {
+    display: inline-block;
+    width: 161px;
+    height: 285px;
+    background: url(../hchimg/glj_f17e145.png) center top no-repeat;
+    position: absolute;
+    right:0;
+    bottom:0;
+}
+
+/*最底部部分*/
+.copyRight {
+    width: 100%;
+    height: 56px;
+    background-color: #000000;
+}
+.copyRight .smallcopyRight {
+    width: 1180px;
+    height: 56px;
+    margin:0 auto;
+}
+.copyRight .p1 {
+    display: inline-block;
+    width: 420px;
+    height: 56px;
+    float: left;
+}
+
+
+.copyRight .p2 {
+    display:block;
+    width: 800px;
+    height: 36px;
+    margin:0 auto;
+    padding-top:20px;
+}
+.copyRight .p2 span{
+    font:12px "宋体";
+    color:#888888;
+
+}
+.copyRight .p2 span a {
+    font:12px "宋体";
+    color:#888888;
+}
+
+
+.jx-banner {
+    min-width: 1450px;
+    position: relative;
+    height: 720px;
+    overflow: hidden;
+}
+
+.t-box {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    clear: both;
+    height: 80px;
+    margin-top: 50px;
+}
+
+.log {
+    float: left;
+    width: 198px;
+    height: 68px;
+    margin-top: 6px;
+    background: url(../jx-images/logo.png) no-repeat 0 0;
+
+}
+
+.top-r {
+    height: 80px;
+    font-size: 18px;
+    color: #fff;
+    float: right;
+    width: 550px;
+}
+
+.top-r p {
+    float: right;
+    width: 90px;
+    height: 28px;
+    background-color: #fff;
+    opacity: .3;
+    padding: 0 5px;
+    color: brown;
+    text-align: center;
+}
+
+.dh {
+    margin-top: 16px;
+    width: 719px;
+    height: 36px;
+    float: right;
+}
+
+.dh ul {
+    margin-left: 166px;
+    float: right;
+}
+
+.hid {
+    display: none;
+}
+
+.sho {
+    display: block;
+}
+
+.dh li {
+    float: left;
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+}
+
+.dh a {
+    font-size: 18px;
+    color: white;
+    font-family: "microsoft yahei";
+}
+
+.wx, .qq, .wb {
+    width: 36px;
+    height: 36px;
+    float: right;
+    margin-left: 10px;
+    background: url(../jx-images/gzIcon_6c4fde2.png) no-repeat 0 0;
+    border-radius: 18px;
+    display: block;
+}
+
+.cc h2 {
+    width: 100%;
+    height: 69px;
+    font-size: 70px;
+    color: #fff;
+    text-align: center;
+    margin-top: 92px;
+    line-height: 62px;
+}
+
+.cc p {
+    width: 632px;
+    height: 66px;
+    margin: 17px auto 0;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.qq {
+    background-position: -46px 0;;
+}
+
+.wb {
+    background-position: -92px 0;
+}
+
+.sy, .lx {
+    margin-right: 30px;
+}
+
+.log h1 {
+    position: relative;
+    left: 10086px;
+}
+
+.left, .right {
+    width: 55px;
+    height: 144px;
+    position: absolute;
+    font-size: 125px;
+    text-align: center;
+    color: white;
+    display: none;
+}
+
+.left {
+    left: 110px;
+    top: 50%
+}
+
+.right {
+    right: 110px;
+    top: 50%
+}
+
+.dow {
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 50px;
+    display: inline-block;
+    margin-top: 60px;
+    background-color: #00c9db;
+    position: relative;
+    border-radius: 40px;
+    left: 110px;
+    top: 185px;
+    color: whitesmoke;
+}
+
+#bacO {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: .7;
+    display: none;
+    z-index: 2;
+}
+
+.al  {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 476px;
+    /*min-height: 514px;*/
+    height: 536px;
+    margin: -257px 0 0 -238px;
+    border-top: 2px #b3e8ea solid;
+    background-color: #ffffff;
+    opacity: 1;
+    z-index: 3;
+}
+
+.sj {
+    width: 368px;
+    height: 607px;
+    position: absolute;
+    top: 146px;
+    right: 0;
+}
+
+.ani {
+
+    width: 221px;
+    height: 358px;
+    position: absolute;
+    top: 366px;
+    right: 166px;
+}
+
+.fi {
+    display: inline;
+    position: relative;
+    left: 110px;
+    top: 152px;
+}
+
+.a2 {
+    left: -10%;
+    top: 58%;
+}
+.a2-1 {
+    left: -2%;
+    top: 492px;
+}
+.a3-1 {
+    left: -2%;
+    top: 492px;
+}
+.a2-3 {
+    left: 35%;
+    top: 7px;
+}
+
+.a4-1 {
+    left: 8%;
+    top: 493px;
+}
+.a5-1 {
+    left: -5%;
+    top: 492px;
+    z-index: 1;
+}
+.a5-2{
+    left: 8%;
+    top: 430px;
+}
+.outBox {
+    width: 1180px;
+    height: 640px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.m1 {
+    right: 58px;
+}
+
+.m2 {
+    right: 11px;
+}
+
+.m3 {
+    right: -36px;
+}
+
+.m1, .m2, .m3 {
+    width: 96px;
+    height: 102px;
+    padding: 16px 6px 0;
+    background: url("../jx-images/rwm-bg.png") 0 0 no-repeat;
+    overflow: hidden;
+    position: absolute;
+    top: 81px;
+}
+
+.wbB {
+    background-color: rgba(0, 128, 0, 0.69);
+}
+
+.wxB {
+    background-color: blue;
+}
+
+.qqB {
+    background-color: #ff38b2;
+}
+
+.xh {
+    border-bottom: 5px solid #00ffff;
+}
+.p-i{
+    color:gold;
+}
+
+.al-cl p {
+    position: relative;
+    top: 0;
+    right: -426px;
+    font-size: 39px;
+    font-weight: 900;
+    display: inline-block;
+}
+
+.al #xr {
+    margin: 11px 155px;
+}
+.clo{
+    margin: 7px 59px;
+}
